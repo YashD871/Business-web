@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    background-color: #005F73;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: antiquewhite;
+    height: 10vh;
+    position:sticky;
+}
+
+.navleft {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.navright {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Darker background for better contrast */
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.box button {
+    padding: 12px 30px;
+    background-color: #f95b4f; /* Matching the button color from the image */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background-color: #d94b41;
+}
+
+/* Main content styling */
+.main {
+    padding: 40px;
+    /* text-align: center; */
+}
+
+.main h1 {
+    color: #005F73;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.main p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main ul {
+    /* list-style: none; */
+    padding: 0;
+}
+
+.main ul li {
+    font-size: 1.0em;
+    margin-bottom: 10px;
+    margin-left: 47px;
+    color: #555;
+}
+
+/* Additional sections styling */
+.section {
+    padding: 25px;
+    /* text-align: center; */
+    background-color: #d3cccc;
+}
+
+.section h2 {
+    color: rgb(17, 198, 17);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1em;
+    color: #555;
+}
+
+.con{
+    padding: 25px;
+
+}
+.con h2{
+    font-size: 2em;
+    color: #f95b4f;
+}
+.con p{
+    font-size: 1em;
+    color: #555;
+    line-height: 2.6; 
+}
+
+.footer {
+    background-color: #005F73;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 19px;
+}
